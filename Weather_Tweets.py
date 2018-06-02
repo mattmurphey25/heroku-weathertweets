@@ -1,40 +1,32 @@
 
 # coding: utf-8
 
-# In[13]:
-print("Hello World")
+# In[2]:
 
-# Dependencies
+
+print("Open File")
 import tweepy
 import time
 import json
 import random
 import requests as req
 import datetime
-from config import consumer_key, consumer_secret, access_token, access_token_secret, weather_api_key
 
 
-# In[14]:
+# In[3]:
+
 
 import os
-# Twitter API Keys
 consumer_key = os.environ["consumer_key"]
 consumer_secret = os.environ["consumer_secret"]
 access_token = os.environ["access_token"]
 access_token_secret = os.environ["access_token_secret"]
-
-
-# In[15]:
-
-
-# Weather API Key
 weather_api_key = os.environ["weather_api_key"]
 
 
-# In[ ]:
+# In[4]:
 
 
-# Create a function that gets the weather in London and Tweets it
 def WeatherTweet():
 
     # Construct a Query URL for the OpenWeatherMap
@@ -59,7 +51,8 @@ def WeatherTweet():
     print("Tweeted successfully!")
 
 
-# In[ ]:
+# In[5]:
+
 
 counter = 0
 # Set timer to run every 1 hour
