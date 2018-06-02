@@ -3,7 +3,6 @@
 
 # In[13]:
 
-
 # Dependencies
 import tweepy
 import time
