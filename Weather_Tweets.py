@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[2]:
-
 
 print("Open File")
 import tweepy
@@ -13,7 +11,7 @@ import requests as req
 import datetime
 
 
-# In[3]:
+
 
 
 import os
@@ -24,7 +22,6 @@ access_token_secret = os.environ["access_token_secret"]
 weather_api_key = os.environ["weather_api_key"]
 
 
-# In[4]:
 
 
 def WeatherTweet():
@@ -51,7 +48,7 @@ def WeatherTweet():
     print("Tweeted successfully!")
 
 
-# In[5]:
+
 
 
 counter = 0
